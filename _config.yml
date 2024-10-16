@@ -1,0 +1,172 @@
+# Site
+repository: tlsrl6427/tlsrl6427.github.io-resume
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 홍신기
+title: 자바 백엔드 개발자
+email: tlsrl6427@gmail.com
+website: https://tlsrl6427.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  tlsrl6427
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: tlsrl6427.github.io
+  icon: fas fa-globe
+  url: https://tlsrl6427.github.io/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  &nbsp;Java, Spring, JPA, MySQL, Linux를 사용하여 백엔드를 만드는 개발자입니다. 확장성이 좋으며 유지보수하기도 편한 프로젝트를 만들기 위해 항상 고민합니다.
+
+  &nbsp;구석에 앉아 헤드폰을 끼고 일하는 개발자의 인식과 반대로 적극적인 소통과 참여를 추구합니다. 여러 사이드 프로젝트를 진행하며 먼저 의견을 제시하고
+  공통의 목표를 바라보도록 주도적으로 커뮤니케이션합니다. 필요한 기술력에 뒷받침하기 위해 마주쳤던 문제를 다시 되돌아가 해결하고 그 과정을 기록하는 습관을
+  들이려 항상 노력하고 있습니다.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: LOLTMI
+        link: https://github.com/f-lab-edu/LOLTMI
+        # link_text: Project Website
+        additional_links:
+          - title:  f-lab-edu/LOLTMI
+            icon: fab fa-github
+            url: github.com/f-lab-edu/LOLTMI
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        caption: 2024.06 ~
+        quote: >
+          Riot API에 얻은 지표로 승률에 직결되지 않는 TMI 데이터를 제공합니다
+        description: | # this will include new lines to allow paragraphs
+          - 멀티모듈로 코드 중복 회피를 통한 유지보수성 증가
+          - 1분 50개의 request limit을 고려한 Batch 구현, Jenkins로 스케쥴링하여 하루 약 2000개의 데이터 적재 
+
+      - layout: left
+        title: Yogiyo-clone
+        link: https://github.com/ToyProject-yogiyo2/yogiyo-back
+        # link_text: Project Website
+        additional_links:
+          - title:  ToyProject-yogiyo2/yogiyo-back
+            icon: fab fa-github
+            url: github.com/ToyProject-yogiyo2/yogiyo-back
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        caption: 2023.09 ~ 2024.03
+        quote: >
+          요기요 앱을 클론코딩한 프로젝트입니다
+        description: | # this will include new lines to allow paragraphs
+          - Github Actions와 Docker를 이용한 CD 구축으로 개발 생산성 증가
+          - AWS Route 53 & AWS ELB 과금 정책에 따라 가비아 도메인 & 자체 인증서로 이전(무료화)
+          - 주변 음식점 조회: 거리순 계산 -> 테이블 구조 변경(법정동 코드 도입)으로 음식점 리스트 조회 기능 약 5배의 성능 개선(https://tlsrl6427.github.io/posts/yogiyo-address-structure-change)
+          - 멀티 프로세스를 이용한 크롤링으로 약 200만건의 요기요 데이터 적재
+      
+      - layout: left
+        title: Sideeffect
+        link: https://github.com/Side-Effect-Team/side-effect-backend
+        # link_text: Project Website
+        additional_links:
+          - title:  Side-Effect-Team/side-effect-backend
+            icon: fab fa-github
+            url: github.com/Side-Effect-Team/side-effect-backend
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        caption: 2023.04 ~ 2024.06
+        quote: >
+          프로젝트 구인 사이트 홀라를 벤치마킹한 사이트입니다.
+        description: | # this will include new lines to allow paragraphs
+          - Custom LoginController를 만들어 소셜 로그인(구글, 네이버, 카카오) 구현
+          - Spring Security환경 에서 JWT(Access Token, Refresh Token) 발행으로 로그인 유지 기능 구현
+          - Swagger + Spring Rest Docs를 통한 API 명세서 작성 자동화로 명세서 신뢰성 향상
+          - AWS EC2 환경에서 Jenkins를 이용한 CD 구축으로 개발 생산성 증가
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: F-Lab 멘토링 서비스
+        caption: 2024.06 - 2024.10
+        sub_title: 자바 백엔드 개발자 코스
+
+      - layout: top-middle
+        title: 서울과학기술대학교
+        caption: 2016.03 - 2022.02
+        sub_title: 컴퓨터공학과
+
+      - layout: top-middle
+        title: 동북고등학교
+        caption: 2013.03 - 2016.02
+        sub_title: 자연계(서울 소재)
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      ![SpringBoot](https://img.shields.io/static/v1?style=for-the-badge&color=6DB33F&message=spring+boot&logo=springboot&logoColor=white&label=)
+      ![SpringSecurity](https://img.shields.io/static/v1?style=for-the-badge&color=6DB33F&message=spring+security&logo=springSecurity&logoColor=white&label=)
+      ![SpringBatch](https://img.shields.io/static/v1?style=for-the-badge&color=6DB33F&message=spring+batch&logo=ebox&logoColor=white&label=)
+      ![SpringRestDocs](https://img.shields.io/static/v1?style=for-the-badge&color=6DB33F&message=spring+rest+docs&logo=readthedocs&logoColor=white&label=)
+      ![Git](https://img.shields.io/static/v1?style=for-the-badge&color=F05032&message=git&logo=git&logoColor=white&label=)
+      ![Swagger](https://img.shields.io/static/v1?style=for-the-badge&color=85EA2D&message=swagger&logo=swagger&logoColor=black&label=)
+      ![Java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white)
+      
+      ![JpaHibernate](https://img.shields.io/static/v1?style=for-the-badge&color=59666C&message=JPA+hibernate&logo=hibernate&logoColor=white&label=)
+      ![QueryDsl](https://img.shields.io/static/v1?style=for-the-badge&color=2496ED&message=query+dsl&logo=qualys&logoColor=black&label=)
+      ![MySQL](https://img.shields.io/static/v1?style=for-the-badge&color=4479A1&message=mysql&logo=mysql&logoColor=white&label=)
+      ![MariaDB](https://img.shields.io/static/v1?style=for-the-badge&color=003545&message=mariaDB&logo=mariaDB&logoColor=white&label=)
+      ![Linux](https://img.shields.io/static/v1?style=for-the-badge&color=FCC624&message=linux&logo=linux&logoColor=white&label=)
+      ![Redis](https://img.shields.io/static/v1?style=for-the-badge&color=DC382D&message=redis&logo=redis&logoColor=white&label=)
+      ![Docker](https://img.shields.io/static/v1?style=for-the-badge&color=2496ED&message=docker&logo=docker&logoColor=white&label=)
+      ![Jenkins](https://img.shields.io/static/v1?style=for-the-badge&color=D24939&message=jenkins&logo=jenkins&logoColor=black&label=)
+      ![Amazon EC2](https://img.shields.io/static/v1?style=for-the-badge&color=FF9900&message=aws+ec2&logo=amazonec2&logoColor=black&label=)
+      ![Amazon RDS](https://img.shields.io/static/v1?style=for-the-badge&color=527FFF&message=amazon+rds&logo=amazonRds&logoColor=white&label=)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
