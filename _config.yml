@@ -75,7 +75,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 멀티모듈로 코드 중복 회피를 통한 유지보수성 증가
           - 1분 50개의 request limit을 고려한 Batch 구현, Jenkins로 스케쥴링하여 하루 약 2000개의 데이터 적재 
-          - 100만건 이상의 데이터 조회 시간 지연에 따라 통계 테이블 생성 후 조회, 약 200배의 시간 단축(https://tlsrl6427.github.io/posts/statistics-table/)
+          - 100만건 이상의 데이터 조회 시간 지연에 따라 통계 테이블 생성 후 조회, 약 200배의 시간 단축
+          (https://tlsrl6427.github.io/posts/statistics-table/)
 
       - layout: left
         title: Yogiyo-clone
