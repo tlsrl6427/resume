@@ -48,11 +48,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  &nbsp;Java, Spring, JPA, MySQL, Linux를 사용하여 백엔드를 만드는 개발자입니다. 확장성이 좋으며 유지보수하기도 편한 프로젝트를 만들기 위해 항상 고민합니다.
+  &nbsp;Java, Spring, JPA, MySQL, Linux를 사용하여 백엔드를 만드는 개발자입니다.
 
-  &nbsp;구석에 앉아 헤드폰을 끼고 일하는 개발자의 인식과 반대로 적극적인 소통과 참여를 추구합니다. 여러 사이드 프로젝트를 진행하며 먼저 의견을 제시하고
-  공통의 목표를 바라보도록 주도적으로 커뮤니케이션합니다. 필요한 기술력에 뒷받침하기 위해 마주쳤던 문제를 다시 되돌아가 해결하고 그 과정을 기록하는 습관을
-  들이려 항상 노력하고 있습니다.
+  &nbsp;개발자는 경험과 지식을 토대로 알맞는 기술을 채택하는 일을 한다고 생각합니다. 이것은 백엔드뿐만 아니라 프론트엔드, 인프라 등과 접목해서 생각해야 최대의 시너지를 낼 수 있기 때문에 결국엔 여러 분야를 두루두루 할줄 아는 것을 지향합니다.
+  
+  &nbsp;경험을 쌓기 위해 사이드 프로젝트를 진행하며 부딪힌 일들을 블로그에 기록하고, 지식을 얻기 위해 인프런 강의와 책(ex.자바의 신)을 주기적으로 보고있습니다.  
 
 content:
   - title: Projects # Title for the section
@@ -75,6 +75,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 멀티모듈로 코드 중복 회피를 통한 유지보수성 증가
           - 1분 50개의 request limit을 고려한 Batch 구현, Jenkins로 스케쥴링하여 하루 약 2000개의 데이터 적재 
+          - 100만건 이상의 데이터 조회 시간 지연에 따라 통계 테이블 생성 후 조회, 약 200배의 시간 단축(https://tlsrl6427.github.io/posts/statistics-table/)
 
       - layout: left
         title: Yogiyo-clone
