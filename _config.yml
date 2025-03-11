@@ -138,6 +138,9 @@ content:
         caption: 2013.03 - 2016.02
         sub_title: 자연계(서울 소재)
 
+      - layout: top-middle
+        caption: 97년 4월 14일생
+
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
