@@ -57,10 +57,12 @@ about_content: | # this will include new lines to allow paragraphs
   
 content:
   - title: Work Experiences # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
      - layout: top-middle
-        title: 스페이스맵(주)
-        caption: 2025.05 ~
-        sub_title: 백엔드 개발자
+       title: 스페이스맵(주)
+       caption: 2025.05 ~
+       sub_title: 백엔드 개발자
         
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
