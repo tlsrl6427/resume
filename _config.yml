@@ -46,7 +46,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: Summary
+about_title: Summary
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   &nbsp;Java, Python, Typescript 등의 언어와 프레임워크들을 사용하여 백엔드 서비스를 만드는 개발자입니다.
