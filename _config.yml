@@ -173,6 +173,7 @@ content:
       ![Docker](https://img.shields.io/static/v1?style=for-the-badge&color=2496ED&message=docker&logo=docker&logoColor=white&label=)
       ![Jenkins](https://img.shields.io/static/v1?style=for-the-badge&color=D24939&message=jenkins&logo=jenkins&logoColor=black&label=)
       ![AWS](https://img.shields.io/static/v1?style=for-the-badge&color=FF9900&message=aws+ec2&logo=amazonec2&logoColor=black&label=)
+      ![Kafka](https://img.shields.io/static/v1?style=for-the-badge&color=231F20&message=Apache+Kafka&logo=apachekafka&logoColor=white&label=)
 
 # Footer
 footer_show_references: true
