@@ -63,7 +63,7 @@ content:
        title: 스페이스맵(주)
        caption: 2025.05 ~
        sub_title: 백엔드 개발자
-       description:
+       description: |
         - 결제 (토스페이먼츠, Paypal) 및 권한(PDP, PEP) 시스템 구축
         - Airflow 버전 업그레이드 2.9.3 -> 3.1.6
         - AWS-IDC간 Site-to-Site VPN 구성
