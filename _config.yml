@@ -11,6 +11,8 @@ title: 백엔드 개발자
 email: tlsrl6427@gmail.com
 phone: 01049305764
 website: https://tlsrl6427.github.io
+portfolio: https://app.notion.com/p/41697912f30581cbb52ee78bdef3afbc?source=copy_link
+portfolio_text: Notion 링크
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -35,6 +37,9 @@ additional_links:
 - title: tlsrl6427.github.io
   icon: fas fa-globe
   url: https://tlsrl6427.github.io/
+- title: Portfolio
+  icon: fas fa-folder-open
+  url: https://app.notion.com/p/41697912f30581cbb52ee78bdef3afbc?source=copy_link
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,9 +54,14 @@ additional_links:
 about_title: Summary
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  &nbsp;개발자는 경험과 지식을 토대로 알맞는 기술을 채택하는 일을 한다고 생각합니다. 이것은 백엔드뿐만 아니라 프론트엔드, 인프라 등과 접목해서 생각해야 최대의 시너지를 낼 수 있기 때문에 결국엔 여러 분야를 두루두루 할줄 아는 것을 지향합니다.
+  &nbsp; API, 인프라, 데이터 파이프라인 등 여러 분야에서 개발을 경험한 백엔드 개발자입니다. 이 과정에서 습득한 것은 다방면의 기술을 사용해봤다는 사실이 아니라 도메인과 현재 상황에 알맞는 기술을 채택하고 
+  도입하고 검증하는 것입니다. 
   <br><br>
-  &nbsp; 과거에는 새로운 언어나 프레임워크를 익히는 데 상당한 시간이 필요했지만, 이제는 Cursor와 Claude Code 등의 AI 툴을 통해 낯선 기술도 빠르게 학습하고 실무에 적용할 수 있게 되었습니다. 이를 통해 인사이트를 얻어 많은 양의 일을 빠르게 처리하되, 위와 같은 맥락에서 적절한 결정을 내리기 위해 끊임없이 질의하고 테스트하며 개발합니다.
+  &nbsp; 과거에는 새로운 언어나 프레임워크를 익히는 데 상당한 시간이 필요했지만, 이제는 Claude Code 등의 AI 툴을 통해 낯선 기술도 빠르게 학습하고 실무에 적용할 수 있게 되었습니다.
+  이러한 툴들과 배우는 태도로 기술을 현명하게 사용하기 위해 끊임없이 질의하고 테스트하겠습니다.
+  <br><br>
+  &nbsp; 개발자는 경험과 지식을 토대로 알맞는 기술을 채택하는 일을 한다고 생각합니다. 그동안의 쌓인 경험과 지식, 그리고 타 부서와의 협업 경험으로 배정된 분야에서 최적의 결과를 내도록 기여하겠습니다.
+  
   
 content:
   - title: Work Experiences # Title for the section

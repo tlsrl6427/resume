@@ -3,3 +3,20 @@
 ---
 
 @import 'modern-resume-theme';
+
+// 헤더의 포트폴리오 줄 강조
+.header-right p.header-portfolio {
+  margin-top: 8px;
+  font-weight: 700;
+
+  a {
+    color: #477dca;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+    &:hover { color: #355e98; }
+
+    i { font-size: 1.2rem; margin-left: 2px; }
+  }
+}
